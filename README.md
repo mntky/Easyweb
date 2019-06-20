@@ -5,7 +5,7 @@
 git clone https://github.com/mntky/Easyweb
 ```
 
-##Options
+## Options
 
 ```
 -a X.X.X.X	//IPAddress
@@ -13,7 +13,7 @@ git clone https://github.com/mntky/Easyweb
 -t test		//Webpage text
 ```
 
-##Example
+## Example
 
 ```
 ew							//localhost:8080
