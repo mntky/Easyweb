@@ -9,6 +9,7 @@ import (
 	"io"
 	"strconv"
 	"regexp"
+	"os"
 
 )
 
@@ -38,6 +39,7 @@ func main() {
 	if tf == false {
 		errlog.Print("mistaken ip address")
 		fmt.Println(&errbuf)
+		os.Exit(0)
 	}
 
 	fmt.Printf("Listen Start %v:%v\n", *addr,*port)
