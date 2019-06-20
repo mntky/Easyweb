@@ -22,7 +22,7 @@ var (
 //logger
 var (
 	errbuf bytes.Buffer
-	errlog = log.New(&errbuf, "[error]", 5)
+	errlog = log.New(&errbuf, "[error]", 0)
 	//log.New(io.write, string,	0 -- nothing
 	//							1 -- yyyy/mm/dd
 	//							2 -- hh:mm:ss
