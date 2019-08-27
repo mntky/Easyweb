@@ -2,7 +2,7 @@
 ちゃちゃっとwebサーバ立てたい
 
 ```
-git clone https://github.com/mntky/Easyweb
+git clone https://github.com/mntky/webu
 ```
 
 ## Options
